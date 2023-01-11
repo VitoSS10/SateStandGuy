@@ -33,6 +33,7 @@ public class CustomerSpawner : MonoBehaviour
         if(servedCustomer == maxCustomer)
         {
             Debug.Log("You Win");
+            return;
         }
     }
 

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6ebad429-a4e8-919e-1194-ad9eeee98bd9}</ProjectGuid>
+    <ProjectGuid>{6bae776a-cd17-0a7b-0cd5-026d745cbeb8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -347,25 +347,25 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -740,169 +740,169 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\VITO BINUS\Semester 5\Cooking Satay New\Cooking Satayy\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:\VITO BINUS\Semester 5\GitHub Repository\SateStandGuy\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

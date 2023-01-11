@@ -2201,7 +2201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 183.99997, y: -135}
+  m_AnchoredPosition: {x: 183.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496972575
@@ -2224,7 +2224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 36e83cdaf8cb7f84e83135a8ae7f147f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8c214c589810f8345ba5eb7a9db1ab6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4094,7 +4094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 633.95825, y: -135}
+  m_AnchoredPosition: {x: 634.1263, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725583903
@@ -4290,7 +4290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 183.99997, y: -135}
+  m_AnchoredPosition: {x: 183.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824666987
@@ -4448,7 +4448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584, y: -135}
+  m_AnchoredPosition: {x: 583.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833675063
@@ -4933,7 +4933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &906853787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5056,7 +5056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584, y: -135}
+  m_AnchoredPosition: {x: 583.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935222508
@@ -5159,7 +5159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c67e69cc1b4b26749bc8c70be672b8e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3bfcf387cfc883c4d9b2f4569a94804a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5195,7 +5195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &951085694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5342,7 +5342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5de4e7251d478a4f8c23970c1e160b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47b1071a225382d4a96f02dc0d121555, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5588,7 +5588,7 @@ GameObject:
   - component: {fileID: 989759105}
   - component: {fileID: 989759104}
   m_Layer: 5
-  m_Name: Pause Button
+  m_Name: Detail Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5931,7 +5931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 383.99997, y: -135}
+  m_AnchoredPosition: {x: 383.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069433407
@@ -6034,7 +6034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 75ef81c0a8deec847a79a7465f335686, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6bdb328436448542979984e4b40d29f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6089,7 +6089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 383.95825, y: -135}
+  m_AnchoredPosition: {x: 384.12628, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091247735
@@ -6112,7 +6112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58548293ba0cf80418c75aa2f2b8412f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7315685b6f5e054bb24a826838fce50, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9123,6 +9123,18 @@ MonoBehaviour:
     id: 342
     cookTime: 3
     menuImage: {fileID: 21300000, guid: 88462b966de63e94887ebe1967dbdfca, type: 3}
+  - name: Sate Padang + Air Mineral
+    id: 1113
+    cookTime: 3
+    menuImage: {fileID: 21300000, guid: 52cb15c601b2a4b49bcfdbe284380025, type: 3}
+  - name: Sate Padang + Es Teh Tawar
+    id: 2113
+    cookTime: 3
+    menuImage: {fileID: 21300000, guid: 69184be5d0f86d443bb9bf7ddeac975e, type: 3}
+  - name: Sate Padang + Es Teh Manis
+    id: 3113
+    cookTime: 3
+    menuImage: {fileID: 21300000, guid: bc32a22886ee9fd4294d401a5e45da38, type: 3}
   availableOrderID: 000000000000000000000000
   customersContainer:
   - {fileID: 611558671}
@@ -10093,7 +10105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 133.95825, y: -135}
+  m_AnchoredPosition: {x: 134.12628, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980464363
@@ -10116,7 +10128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4464d9ff5160e984cbbc6c9f3c51917c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca03a429dde87474cb9591d4769060ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10546,7 +10558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 383.99997, y: -135}
+  m_AnchoredPosition: {x: 383.95825, y: -135}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040413408
