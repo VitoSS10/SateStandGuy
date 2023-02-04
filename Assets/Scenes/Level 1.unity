@@ -9138,15 +9138,15 @@ MonoBehaviour:
   - name: Sate Madura + Air Mineral
     id: 1221
     cookTime: 3
-    menuImage: {fileID: 21300000, guid: b9873730df6423f449bfb9be0f3da4a8, type: 3}
+    menuImage: {fileID: 21300000, guid: 594c428f02ca2e54ba29ce8cf9f25920, type: 3}
   - name: Sate Madura + Es Teh Tawar
     id: 2221
     cookTime: 3
-    menuImage: {fileID: 21300000, guid: b9873730df6423f449bfb9be0f3da4a8, type: 3}
+    menuImage: {fileID: 21300000, guid: 75e9692fff70755478be641ffd321dac, type: 3}
   - name: Sate Madura + Es Teh Manis
     id: 3221
     cookTime: 3
-    menuImage: {fileID: 21300000, guid: b9873730df6423f449bfb9be0f3da4a8, type: 3}
+    menuImage: {fileID: 21300000, guid: bb977467db9ce0c43b1ba52e2422e4ed, type: 3}
   - name: Sate Taichan + Air Mineral
     id: 1031
     cookTime: 3
