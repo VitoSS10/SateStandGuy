@@ -9,6 +9,7 @@ public class Customer : MonoBehaviour
     public Sprite[] customersSprite;
     public Image orderImage;
     public Image customerSprite;
+    public Text menuName;
     public float waitingTime;
     CustomerSpawner spawner;
 
@@ -19,6 +20,7 @@ public class Customer : MonoBehaviour
         mm = MenuManager.instance;
         int randIndex = Random.Range(0,customersSprite.Length);
         customerSprite.sprite = customersSprite[randIndex];
+        waitingTime = spawner.customerWaitingTime;
         GenerateRandomOrder();
         StartCoroutine(waitTime(waitingTime));
     }
@@ -34,9 +36,9 @@ public class Customer : MonoBehaviour
         int randomIndex = Random.Range(0,mm.menus.Length);
 
         int customerIndex = spawner.randomIndex;
-        // Debug.Log(randomIndex);
-        Debug.Log(customerIndex);
+        // Debug.Log(customerIndex);
         orderImage.sprite = mm.menus[randomIndex].menuImage;
+        menuName.text = mm.menus[randomIndex].name;
         mm.availableOrderID[customerIndex] = mm.menus[randomIndex].id;
 
         if(customerIndex < 2)
@@ -55,5 +57,8 @@ public class Customer : MonoBehaviour
         yield return new WaitForSeconds(time);
         Debug.Log("Wait For Too Long!");
         Destroy(this.gameObject);
+        spawner.CheckServedCustomer();
+        spawner.customerLoss++;
+        spawner.UpdateLossText();
     }
 }

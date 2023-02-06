@@ -50,7 +50,7 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void AddMenuID(int id)
@@ -158,13 +158,16 @@ public class MenuManager : MonoBehaviour
 
     public void CheckMenu()
     {
+        // Debug.Log("ingredientsValue" + ingredientsValue);
         for(int i=0;i<menus.Length;i++)
         {
             if(ingredientsValue == menus[i].id)
             {
+                // Debug.Log(menus[i].id);
                 //Do Something
+                // Debug.Log(menus[i].cookTime);
+                // Debug.Log(menus[i].name);
                 StartCoroutine(Cook(menus[i].cookTime));
-                Debug.Log(menus[i].name);
                 return;
             }
             else if(ingredientsValue != menus[i].id)
@@ -177,6 +180,7 @@ public class MenuManager : MonoBehaviour
 
     IEnumerator Cook(float cookTime)
     {
+        Debug.Log("Cooking...");
         cookButton.SetActive(false);
         count = 0;
         
@@ -188,12 +192,14 @@ public class MenuManager : MonoBehaviour
         ingredientContainer.SetActive(false);
         cookingText.SetActive(true);
         yield return new WaitForSeconds(cookTime);
+        Debug.Log("Cooking Complete");
         sendButton.SetActive(true);
         cookingText.SetActive(false);
     }
 
     public void DeleteIngredients()
     {
+        Debug.Log("Reset");
         sendButton.SetActive(false);
         cookButton.SetActive(true);
         ingredientsValue = 0;
@@ -233,31 +239,34 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void SendItem()
-    {
-        for(int i=0;i<availableOrderID.Length;i++)
-        {
-            if(ingredientsValue == availableOrderID[i])
-            {
-                Debug.Log("Menu Found");
-                tempIndex = i;
-                spawner.servedCustomer++;
-                Destroy(customers[tempIndex]);
-                DeleteIngredients();
-                return;
-            }
-        }
+    // public void SendItem()
+    // {
+    //     for(int i=0;i<availableOrderID.Length;i++)
+    //     {
+    //         if(ingredientsValue == availableOrderID[i])
+    //         {
+    //             Debug.Log("Menu Found");
+    //             tempIndex = i;
+    //             spawner.servedCustomer++;
+    //             Destroy(customers[tempIndex]);
+    //             DeleteIngredients();
+    //             return;
+    //         }
+    //     }
 
-        Debug.Log("Not Found");
-    }
+    //     Debug.Log("Not Found");
+    // }
 
     public void SendItem(int index)
     {
-        if(ingredientsValue == availableOrderID[index])
+        if(ingredientsValue == availableOrderID[index] && customers[index] != null)
         {
-            Debug.Log("Menu Found");
+            Debug.Log("Menu Found"); 
             spawner.servedCustomer++;
             Destroy(customers[index]);
+            spawner.UpdateServedText();
+            spawner.CheckServedCustomer();
+            //Get Currency
             DeleteIngredients();
         }
     }

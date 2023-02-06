@@ -6,7 +6,7 @@ public class Ingredients : MonoBehaviour
 {
     MenuManager mm;
     public Ingredient[] ingredients;
-    int idx;
+    
     // Start is called before the first frame update
     void Start()
     {
