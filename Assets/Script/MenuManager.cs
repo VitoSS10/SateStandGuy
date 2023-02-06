@@ -36,7 +36,12 @@ public class MenuManager : MonoBehaviour
     private int ingredientID;
     int tempCategoryID = 0;
     int tempIndex;
+    public GameObject MenuCompleteContainer;
+    public Image menuImage;
+    public Text menuName;
+
     CustomerSpawner spawner;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -167,7 +172,7 @@ public class MenuManager : MonoBehaviour
                 //Do Something
                 // Debug.Log(menus[i].cookTime);
                 // Debug.Log(menus[i].name);
-                StartCoroutine(Cook(menus[i].cookTime));
+                StartCoroutine(Cook(menus[i].cookTime, i));
                 return;
             }
             else if(ingredientsValue != menus[i].id)
@@ -178,7 +183,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    IEnumerator Cook(float cookTime)
+    IEnumerator Cook(float cookTime, int id)
     {
         Debug.Log("Cooking...");
         cookButton.SetActive(false);
@@ -193,6 +198,9 @@ public class MenuManager : MonoBehaviour
         cookingText.SetActive(true);
         yield return new WaitForSeconds(cookTime);
         Debug.Log("Cooking Complete");
+        MenuCompleteContainer.SetActive(true);
+        menuImage.sprite = menus[id].menuImage;
+        menuName.text = menus[id].name.ToString();
         sendButton.SetActive(true);
         cookingText.SetActive(false);
     }
@@ -268,6 +276,7 @@ public class MenuManager : MonoBehaviour
             spawner.CheckServedCustomer();
             //Get Currency
             DeleteIngredients();
+            MenuCompleteContainer.SetActive(false);
         }
     }
 }
