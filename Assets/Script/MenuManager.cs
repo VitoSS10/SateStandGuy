@@ -42,6 +42,7 @@ public class MenuManager : MonoBehaviour
     public Text menuName;
     public Text currencyText;
     CustomerSpawner spawner;
+    AudioManager am;
     
     
     // Start is called before the first frame update
@@ -53,6 +54,7 @@ public class MenuManager : MonoBehaviour
         UpdateCurrency();
 
         spawner = GetComponent<CustomerSpawner>();
+        am = AudioManager.instance;
     }
 
     // Update is called once per frame
@@ -180,12 +182,29 @@ public class MenuManager : MonoBehaviour
                 StartCoroutine(Cook(menus[i].cookTime, i));
                 return;
             }
-            else if(ingredientsValue != menus[i].id)
+            else if(ingredientsValue != menus[i].id && ingredientsValue != 0)
             {
+                if(i == menus.Length)
+                {
+                    am.Play("Cook Fail");
+                }
+            
+                // if(canPlay)
+                // {
+                //     am.PlayOneShot("Cook Fail");
+                //     canPlay = false;
+                // }
+                
+                // if(!canPlay && i == menus.Length-1)
+                // {
+                //     canPlay = true;
+                // }
                 //Kalau tidak ada , kerjain apa 
                 Debug.Log("Menu Not Found !");
             }
         }
+
+        DeleteIngredients();
     }
 
     IEnumerator Cook(float cookTime, int id)
@@ -203,6 +222,7 @@ public class MenuManager : MonoBehaviour
         cookingText.SetActive(true);
         yield return new WaitForSeconds(cookTime);
         Debug.Log("Cooking Complete");
+        am.Play("Cook Success");
         MenuCompleteContainer.SetActive(true);
         menuImage.sprite = menus[id].menuImage;
         menuName.text = menus[id].name.ToString();
@@ -227,7 +247,7 @@ public class MenuManager : MonoBehaviour
         }
 
         ingredientContainer.SetActive(false);
-
+        MenuCompleteContainer.SetActive(false);
         ingredientsScript.DeleteAllIngredients();
     }
 
@@ -289,6 +309,7 @@ public class MenuManager : MonoBehaviour
         if(ingredientsValue == availableOrderID[index] && customers[index] != null)
         {
             Debug.Log("Menu Found"); 
+            am.Play("Customer Disappear");
             spawner.servedCustomer++;
             Destroy(customers[index]);
             spawner.UpdateServedText();
@@ -296,6 +317,10 @@ public class MenuManager : MonoBehaviour
             //Get Currency
             DeleteIngredients();
             MenuCompleteContainer.SetActive(false);
+        }
+        else if(ingredientsValue != availableOrderID[index])
+        {
+            am.Play("Cook Fail");
         }
     }
 }

@@ -14,17 +14,23 @@ public class CustomerSpawner : MonoBehaviour
     int targetCustomer;
     public int customerWaitingTime;
     public float timeInterval;
-    private float lastSpawnedTime = 2.0f;
+    private float lastSpawnedTime = 0.0f;
     public int randomIndex;
     bool isWin;
     public Text servedText;
     public Text lossText;
+    public GameObject winWindow;
+    public GameObject loseWindow;
     MenuManager mm;
+    AudioManager am;
+    GameManager gm;
 
     // Start is called before the first frame update
     void Start()
     {
         mm = MenuManager.instance;
+        am = AudioManager.instance;
+        gm = GameManager.instance;
         targetCustomer = maxCustomer - maxCustomerLoss;
         UpdateServedText();
         UpdateLossText();
@@ -71,6 +77,7 @@ public class CustomerSpawner : MonoBehaviour
             if(mm.customers[randomIndex] == null)
             {
                 customerCount++;
+                am.Play("Customer Appear");
                 Instantiate(customer,mm.customersContainer[randomIndex].transform);
             }
             else if(mm.customers[randomIndex] != null)
@@ -101,15 +108,15 @@ public class CustomerSpawner : MonoBehaviour
         //         return;
         //     }
         // }
-
+        
         if(customerLoss == maxCustomerLoss)
         {
-            StartCoroutine(Lose());
+            Lose();
         }
         
         if(servedCustomer == targetCustomer)
         {
-            StartCoroutine(Win());
+            Win();
         }
     }
 
@@ -123,17 +130,16 @@ public class CustomerSpawner : MonoBehaviour
         lossText.text = customerLoss.ToString() + " / " + maxCustomerLoss.ToString();
     }
 
-    IEnumerator Win()
+    void Win()
     {
-        yield return new WaitForSeconds(1.0f);
-        Debug.Log("You Win");
+        winWindow.SetActive(true);
+        gm.UnlockNextLevel();
+        Time.timeScale = 0;
     }
 
-    IEnumerator Lose()
+    void Lose()
     {
-        yield return new WaitForSeconds(1.0f);
-        Debug.Log("You Lose");
-        yield return new WaitForSeconds(1.0F);
+        loseWindow.SetActive(true);
         Time.timeScale = 0;
     }
 }

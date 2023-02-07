@@ -13317,12 +13317,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customer: {fileID: 8536881540580859293, guid: ea7211069e3522741902d19d53032c30, type: 3}
-  maxCustomer: 4
+  maxCustomer: 6
   servedCustomer: 0
   customerLoss: 0
   maxCustomerLoss: 2
-  customerWaitingTime: 30
-  timeInterval: 10
+  customerWaitingTime: 25
+  timeInterval: 8
   randomIndex: 0
   servedText: {fileID: 1189086737}
   lossText: {fileID: 371171690}
@@ -13340,7 +13340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7b0ae658c2cdf49b5ad47c5c312440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToUnlock: 2
+  levelToUnlock: 3
   maxLevel: 3
 --- !u!1 &1815705839
 GameObject:

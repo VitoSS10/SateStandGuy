@@ -12,11 +12,13 @@ public class Customer : MonoBehaviour
     public Text menuName;
     public float waitingTime;
     CustomerSpawner spawner;
+    AudioManager am;
 
     // Start is called before the first frame update
     void Start()
     {
         spawner = FindObjectOfType<CustomerSpawner>();
+        am = AudioManager.instance;
         mm = MenuManager.instance;
         int randIndex = Random.Range(0,customersSprite.Length);
         customerSprite.sprite = customersSprite[randIndex];
@@ -54,11 +56,12 @@ public class Customer : MonoBehaviour
     IEnumerator waitTime(float time)
     {
         Debug.Log("Waiting....");
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(time+1.0f);
+        am.Play("Customer Disappear");
         Debug.Log("Wait For Too Long!");
         Destroy(this.gameObject);
-        spawner.CheckServedCustomer();
         spawner.customerLoss++;
         spawner.UpdateLossText();
+        spawner.CheckServedCustomer();
     }
 }
