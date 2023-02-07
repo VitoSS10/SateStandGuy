@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ingredients : MonoBehaviour
 {
     MenuManager mm;
     public Ingredient[] ingredients;
+    public Text[] ingredientCostText;
     
     // Start is called before the first frame update
     void Start()
     {
         mm = MenuManager.instance;
+        ShowIngredientsCost();
     }
 
     // Update is called once per frame
@@ -30,6 +33,14 @@ public class Ingredients : MonoBehaviour
         // {
         //     ingredients[idx].isAdded = true;
         // }
+    }
+
+    public void ShowIngredientsCost()
+    {
+        for(int i=0;i<ingredients.Length;i++)
+        {
+            ingredientCostText[i].text = ingredients[i].cost.ToString();
+        }
     }
 
     public void DeleteAllIngredients()

@@ -8,4 +8,5 @@ public class Ingredient
     public string name;
     public bool isAdded;
     public int categoryID;
+    public float cost;
 }

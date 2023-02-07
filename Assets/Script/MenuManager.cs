@@ -20,6 +20,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    public float startCurrency;
     public GameObject cookButton;
     public GameObject sendButton;
     public GameObject ingredientContainer;
@@ -39,7 +40,7 @@ public class MenuManager : MonoBehaviour
     public GameObject MenuCompleteContainer;
     public Image menuImage;
     public Text menuName;
-
+    public Text currencyText;
     CustomerSpawner spawner;
     
     
@@ -48,6 +49,8 @@ public class MenuManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Daging",0);
         PlayerPrefs.SetInt("Bumbu",0);
+
+        UpdateCurrency();
 
         spawner = GetComponent<CustomerSpawner>();
     }
@@ -60,7 +63,7 @@ public class MenuManager : MonoBehaviour
 
     public void AddMenuID(int id)
     {
-        if(!ingredient.isAdded)
+        if(!ingredient.isAdded && startCurrency >= ingredient.cost)
         {
             if(ingredient.categoryID != tempCategoryID)
             {
@@ -69,6 +72,7 @@ public class MenuManager : MonoBehaviour
                     if(PlayerPrefs.GetInt("Daging") != 1 || PlayerPrefs.GetInt("Bumbu") != 1)
                     {
                         ingredientsValue+=id;
+                        PayIngredient();
                         Debug.Log(ingredientsValue);
                     }
                     else
@@ -86,6 +90,7 @@ public class MenuManager : MonoBehaviour
                 else 
                 {
                     ingredientsValue+=id;
+                    PayIngredient();
                     Debug.Log(ingredientsValue);
                 }
                 
@@ -130,7 +135,7 @@ public class MenuManager : MonoBehaviour
         }
         else
         {
-            if(!ingredient.isAdded)
+            if(!ingredient.isAdded && startCurrency >= ingredient.cost)
             {
                 if(ingredient.categoryID != tempCategoryID)
                 {
@@ -245,6 +250,20 @@ public class MenuManager : MonoBehaviour
                 customers[i] = customersContainer[i].transform.GetChild(0).gameObject;
             }
         }
+    }
+
+    void PayIngredient()
+    {
+        if(startCurrency >= ingredient.cost)
+        {
+            startCurrency -= ingredient.cost;
+            UpdateCurrency();
+        }
+    }
+
+    void UpdateCurrency()
+    {
+        currencyText.text = startCurrency.ToString();
     }
 
     // public void SendItem()
